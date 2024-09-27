@@ -10,8 +10,8 @@ import { auth } from '@/auth';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Dashboard',
-  description: 'Basic dashboard with Next.js and Shadcn'
+  title: 'TeamPulse -Next.js/Shadcn dashboard',
+  description: 'Sophisticated dashboard Build with Next.js 14 and Shadcn UI components'
 };
 
 export default async function RootLayout({
