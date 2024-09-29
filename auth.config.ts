@@ -2,7 +2,7 @@ import { NextAuthConfig } from 'next-auth';
 import CredentialProvider from 'next-auth/providers/credentials';
 import GithubProvider from 'next-auth/providers/github';
 
-const authConfig = {
+const authConfig: NextAuthConfig = {
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID ?? '',
@@ -36,7 +36,19 @@ const authConfig = {
   ],
   pages: {
     signIn: '/' //sigin page
-  }
-} satisfies NextAuthConfig;
+  },
+  callbacks: {
+    async redirect({ url, baseUrl }) {
+      // Allows relative callback URLs
+      if (url.startsWith("/")) return `${baseUrl}${url}`
+      // Allows callback URLs on the same origin
+      else if (new URL(url).origin === baseUrl) return url
+      return baseUrl
+    }
+  },
+  debug: process.env.NODE_ENV === 'development',
+  secret: process.env.NEXTAUTH_SECRET,
+  trustHost: true,
+};
 
 export default authConfig;
