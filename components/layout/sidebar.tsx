@@ -29,7 +29,7 @@ export default function Sidebar({ className }: SidebarProps) {
     >
       <div className="hidden p-5 pt-10 lg:block">
         <Link
-          href={'https://github.com/manju1807'}
+          href={'https://github.com/manju1807/TeamPulse'}
           target="_blank"
           className='flex flex-row'
         >
