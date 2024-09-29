@@ -64,6 +64,16 @@ You should now be able to access Teampulse at `http://localhost:3000`.
 
 ---
 
+### Screenshots
+
+![Screenshot 1](https://github.com/user-attachments/assets/ccc51db4-e545-458a-b9ef-36ab9d5abae3)
+![Screenshot 2](https://github.com/user-attachments/assets/ac06a8a5-b359-476c-9f11-eba1c5ac5689)
+![Screenshot 3](https://github.com/user-attachments/assets/e0c740bf-094b-41aa-83d3-491da651d389)
+![Screenshot 4](https://github.com/user-attachments/assets/bb569599-23de-4d71-afbd-98db3b386e15)
+![Screenshot 5](https://github.com/user-attachments/assets/9f705807-e3e9-4af6-8244-19aef95cc8f6)
+
+---
+
 Created with ❤️ by Manjunath R
 
 🎞️ Data provided by TMDB API.
