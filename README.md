@@ -75,5 +75,3 @@ You should now be able to access Teampulse at `http://localhost:3000`.
 ---
 
 Created with ❤️ by Manjunath R
-
-🎞️ Data provided by TMDB API.
