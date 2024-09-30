@@ -66,6 +66,7 @@ You should now be able to access Teampulse at `http://localhost:3000`.
 
 ### Screenshots
 
+![Teampulsepng](https://github.com/user-attachments/assets/5604db0c-ce40-4d0f-9b49-07acbbd1a95a)
 ![Screenshot 1](https://github.com/user-attachments/assets/ccc51db4-e545-458a-b9ef-36ab9d5abae3)
 ![Screenshot 2](https://github.com/user-attachments/assets/ac06a8a5-b359-476c-9f11-eba1c5ac5689)
 ![Screenshot 3](https://github.com/user-attachments/assets/e0c740bf-094b-41aa-83d3-491da651d389)
