@@ -4,7 +4,6 @@ import {
   Check,
   ChevronLeft,
   ChevronRight,
-  CircuitBoardIcon,
   CreditCard,
   File,
   FileText,
@@ -24,11 +23,13 @@ import {
   SunMedium,
   Trash,
   Twitter,
-  User,
-  User2Icon,
-  UserX2Icon,
   X,
-  Slack
+  Slack,
+  UserCircle,
+  Users,
+  UserCog,
+  Kanban,
+  LogOutIcon
 } from 'lucide-react';
 
 export type Icon = LucideIcon;
@@ -38,13 +39,13 @@ export const Icons = {
   logo: Slack,
   login: LogIn,
   close: X,
-  profile: User2Icon,
+  profile: UserCog,
   spinner: Loader2,
-  kanban: CircuitBoardIcon,
+  kanban: Kanban,
   chevronLeft: ChevronLeft,
   chevronRight: ChevronRight,
   trash: Trash,
-  employee: UserX2Icon,
+  employee: Users,
   post: FileText,
   page: File,
   media: Image,
@@ -53,13 +54,14 @@ export const Icons = {
   ellipsis: MoreVertical,
   add: Plus,
   warning: AlertTriangle,
-  user: User,
+  user: UserCircle,
   arrowRight: ArrowRight,
   help: HelpCircle,
   pizza: Pizza,
   sun: SunMedium,
   moon: Moon,
   laptop: Laptop,
+  logout: LogOutIcon,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"
